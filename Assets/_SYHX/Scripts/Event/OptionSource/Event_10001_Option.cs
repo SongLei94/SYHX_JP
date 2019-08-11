@@ -12,58 +12,58 @@ public class Event_10001_Option : OptionSource
         if (f > 9)
         {
             CharacterInDungeon.Ins.IncreaseEp(1 * count);
-            result += "喝下之后一股强大的力量涌现，你感觉自己已经无所不能了，你的EP最大值提升" + count;
+            result += "強い力が感じました、エネルギー上限を" + count + "アップ";
         }
         else if (f == 9)
         {
             CharacterInDungeon.Ins.IncreaseAttack(3 * count);
-            result += "喝下之后明显感觉力量变得更强了，攻击力提高" + 3 * count;
+            result += "力が湧いてくる、攻撃を" + 3 * count + "アップ";
         }
         else if (f == 8)
         {
             CharacterInDungeon.Ins.IncreaseDefend(3 * count);
-            result += "喝下之后明显感觉自己更强壮了，防御力提高了" + 3 * count;
+            result += "力が湧いてくる、防御を" + 3 * count + "アップ";
         }
         else if (f == 7)
         {
             CharacterInDungeon.Ins.IncreaseHpMax(10 * count);
-            result += "喝下之后体力更胜以往，生命最大值提高了" + 10 * count;
+            result += "体力がどんどん増えてくる、HP上限を" + 10 * count + "アップ";
         }
         else if (f == 6)
         {
             CharacterInDungeon.Ins.IncreaseAttack(1 * count);
-            result += "喝下之后似乎感觉力量变得更强了，攻击力提高了" + count;
+            result += "力が湧いてくる、攻撃を" + count + "アップ";
         }
         else if (f == 5)
         {
             CharacterInDungeon.Ins.IncreaseDefend(1 * count);
-            result += "喝下之后似乎感觉更强壮了，防御力提高了" + count;
+            result += "力が湧いてくる、防御を" + count + "アップ";
         }
         else if (f == 4)
         {
             int hp = Mathf.FloorToInt(0.1f * CharacterInDungeon.Ins.currentHp * count);
             CharacterInDungeon.Ins.IncreaseHpCurrect(hp);
-            result += "喝下之后体力稍有恢复，生命值恢复了" + hp;
+            result += "体力が少々回復している、HPを" + hp + "回復";
         }
         else if (f == 3)
         {
-            result += "喝下之后什么感觉都没有";
+            result += "何の感じもない";
         }
         else if (f == 2)
         {
             int hp = Mathf.FloorToInt(0.1f * CharacterInDungeon.Ins.currentHp * count);
             CharacterInDungeon.Ins.DecreaseHpCurrect(hp);
-            result += "喝下之后感觉头晕目眩，生命值降低了" + hp;
+            result += "めまい感を感じしました，HPを" + hp + "ダウン";
         }
         else if (f == 1)
         {
             CharacterInDungeon.Ins.DecreaseHpMax(5 * count);
-            result += "喝下之后感觉一阵腹痛，最大生命值降低了" + 5 * count;
+            result += "お腹が痛みを感じます、HP上限を" + 5 * count + "ダウン";
         }
         else if (f == 0)
         {
             CharacterInDungeon.Ins.DecreaseAttack(1 * count);
-            result += "喝下之后顿时感觉虚弱无力，攻击力降低了" + count;
+            result += "気持ち悪いの味だ、攻撃を" + count + "ダウン";
         }
         EventManager.Ins.EUI.ShowResultPanel(result);
     }
