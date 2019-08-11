@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83951e52acc952741a39840adca225d9, type: 3}
   m_Name: "\u6D41\u8840\u653B\u51FB"
   m_EditorClassIdentifier: 
-  desc: "\u9020\u6210\u4F24\u5BB3{damageRate}\uFF0C\u82E5\u6210\u529F\uFF0C\u9020\u6210\u6D41\u8840{count}\u56DE\u5408\u3002"
+  desc: "\u30C0\u30E1\u30FC\u30B8{damageRate}\uFF0C\u82E5\u6210\u529F\uFF0C\u9020\u6210\u6D41\u8840{count}\u56DE\u5408\u3002"
   origin:
     damageRate: 1
     count: 2
