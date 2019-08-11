@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsUnlock: 1
   Owner: {fileID: 11400000, guid: ccfaa4ece61528141bf2b0b5fc17cc85, type: 2}
-  Name: "\u5F3A\u58EE"
-  Desc: "\u63D0\u53472\u70B9\u653B\u51FB\u529B"
+  Name: "\u5C48\u5F37"
+  Desc: "\u653B\u6483\u30922\u30A2\u30C3\u30D7"
   Icon: {fileID: 21300000, guid: 176b392012e6f1844b3e749d523edc54, type: 3}
   type: 0
   IncreaseAttrlist:

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Event_10003
   m_EditorClassIdentifier: 
   id: 10003
-  title: "\u6CB3\u5CB8"
-  desc: "\u4F60\u53D1\u73B0\u4E00\u6761\u6CB3\u6D41"
+  title: "\u5DDD\u5CB8"
+  desc: "\u5DDD\u3092\u898B\u3064\u3051\u305F"
   pic: {fileID: 21300000, guid: 7868af0592558ce4989540191a12abe1, type: 3}
   optionSources:
   - {fileID: 11400000, guid: 378c7e05ec00af54d9a491bd088e7a20, type: 2}

@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsUnlock: 1
   Owner: {fileID: 11400000, guid: 0c069c4785c9f0244afe209c366d0c9b, type: 2}
-  Name: "\u542F\u52A8\u8D44\u91D1"
-  Desc: "\u83B7\u5F9720\u4E2A\u6570\u636E\u788E\u7247"
+  Name: "\u30B9\u30BF\u30FC\u30C8\u30A2\u30C3\u30D7\u8CC7\u91D1"
+  Desc: "\u30C7\u30FC\u30BF\u6B20\u724720\u7372\u5F97"
   Icon: {fileID: 21300000, guid: 6bfc7f75487b711429767f889b22a956, type: 3}
+  type: 0
   ChipFormCount: 20
   ExpCount: 0
   ForceExp: 0

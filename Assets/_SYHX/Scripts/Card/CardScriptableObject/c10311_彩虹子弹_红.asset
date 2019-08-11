@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: "c10311_\u5F69\u8679\u5B50\u5F39_\u7EA2"
   m_EditorClassIdentifier: 
   mID: 10311
-  mName: "\u5F69\u8679\u5B50\u5F39"
-  mDesc: "\u627F\u63A5\u3002\u5BF9\u968F\u673A\u654C\u4EBA\u9020\u6210{damageRate}\u4F24\u5BB32\u6B21\u3002"
+  mName: "\u8679\u306E\u5F3E\u4E38 "
+  mDesc: "\u30BF\u30FC\u30B2\u30C3\u30C8\u306B\u95A2\u308F\u3089\u305A\u30012\u56DE{damageRate}\u30C0\u30E1\u30FC\u30B8\u3002"
   mEP: 0
   upgradeCost: 30
   cardType: 0

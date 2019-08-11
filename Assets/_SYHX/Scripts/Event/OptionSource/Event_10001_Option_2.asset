@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2c456241e0e8a243a85d61bbc577f7b, type: 3}
   m_Name: Event_10001_Option_2
   m_EditorClassIdentifier: 
-  desc: "\u559D\u4E00\u53E3[\u5E78\u8FD0\u68C0\u5B9A]"
+  desc: "\u4E00\u53E3\u98F2\u3080[\u5E78\u904B\u691C\u5B9A]"
   count: 1

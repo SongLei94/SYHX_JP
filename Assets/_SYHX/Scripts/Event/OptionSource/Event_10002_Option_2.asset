@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6efa9813a30d58a4782644b1c9ebe897, type: 3}
   m_Name: Event_10002_Option_2
   m_EditorClassIdentifier: 
-  desc: "\u4EA4\u51FA\u8D22\u7269[\u5931\u53BB25\u6570\u636E\u788E\u7247]"
+  desc: "\u8CA1\u7523\u3092\u6E21\u3059"
   ChipFormCount_Increase: 0
   FoodCount_Increase: 0
   Hp_Increase: 0
@@ -24,4 +24,4 @@ MonoBehaviour:
   AgileExp: 0
   ConstitutionExp: 0
   FortuneExp: 0
-  result: "\u5931\u53BB\u4E8625\u6570\u636E\u788E\u7247"
+  result: "25\u30C7\u30FC\u30BF\u6B20\u7247\u304C\u5931\u3063\u305F"

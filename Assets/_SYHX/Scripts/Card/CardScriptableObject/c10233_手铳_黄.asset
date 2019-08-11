@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: "c10233_\u624B\u94F3_\u9EC4"
   m_EditorClassIdentifier: 
   mID: 10233
-  mName: "\u624B\u94F3"
-  mDesc: "\u5BF9\u76EE\u6807\u9020\u6210{damageRate}\u4F24\u5BB3\u3002"
+  mName: "\u5C0F\u9283"
+  mDesc: "\u30BF\u30FC\u30B2\u30C3\u30C8\u306B{damageRate}\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3002"
   mEP: 0
   upgradeCost: 0
   cardType: 0

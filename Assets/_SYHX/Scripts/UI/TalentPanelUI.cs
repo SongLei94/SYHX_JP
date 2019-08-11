@@ -43,7 +43,7 @@ public class TalentPanelUI : MonoBehaviour
             {
                 highLightFrame.SetActive(false);
                 Lock.SetActive(true);
-                needLvText.GetComponent<Text>().text = item.needLv + "级解锁";
+                needLvText.GetComponent<Text>().text = "LV"+item.needLv + "解禁";
             }
             tf.gameObject.GetComponent<Button>().onClick.AddListener(delegate
             {

@@ -21,14 +21,14 @@ public class Umirika : CharacterContent
         Fortune = 3;
         Words = new CharacterWords()
         {
-            Welcome = "欢迎回来",
+            Welcome = "お帰りなさい~",
             Touch = new string[]
             {
-                "摸摸头1",
-                "摸摸头2",
-                "摸摸头3",
+                "頭をなでなで~",
+                "ないものないものをちょうだい",
+                "落語、好きですか？",
             },
-            Home = "终于能休息啦",
+            Home = "やっと休憩できるよね~",
         };
     }
 

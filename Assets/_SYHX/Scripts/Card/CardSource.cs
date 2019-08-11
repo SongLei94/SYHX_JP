@@ -159,10 +159,10 @@ namespace SYHX.Cards
 
     public enum CardType
     {
-        攻击,
+        攻撃,
         技能,
         防御,
-        诅咒
+        呪い
     }
 
     public enum AttackTargetType

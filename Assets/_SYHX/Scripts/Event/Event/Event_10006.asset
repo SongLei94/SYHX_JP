@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 10006
   title: "\u79D8\u6559\u6240"
-  desc: "\u6709\u4E00\u4F4D\u667A\u8005\u5411\u4F60\u8D70\u6765\uFF0C\u8BF4\u613F\u610F\u5411\u4F60\u4F20\u6388\u77E5\u8BC6\uFF0C\u53EA\u8981\u4F60\u613F\u610F\u652F\u4ED8\u4EE3\u4EF7\u7684\u8BDD\u3002"
+  desc: "\u8CE2\u8005\u306B\u4EE3\u4FA1\u3092\u6255\u3046\u306A\u3089\u77E5\u6075\u304C\u3082\u3089\u3048\u308B"
   pic: {fileID: 21300000, guid: 7868af0592558ce4989540191a12abe1, type: 3}
   optionSources:
   - {fileID: 11400000, guid: d48f4f86c0e1ef34891550c5972ec53a, type: 2}

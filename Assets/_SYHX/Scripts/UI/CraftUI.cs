@@ -53,7 +53,7 @@ public class CraftUI : MonoBehaviour
             int myLevel = 0;
             switch (cc.cardType)
             {
-                case CardType.攻击:
+                case CardType.攻撃:
                     myLevel = CharacterInDungeon.Ins.Force.currentLv;
                     break;
                 case CardType.防御:
@@ -62,7 +62,7 @@ public class CraftUI : MonoBehaviour
                 case CardType.技能:
                     myLevel = CharacterInDungeon.Ins.Constitution.currentLv;
                     break;
-                case CardType.诅咒:
+                case CardType.呪い:
                     myLevel = CharacterInDungeon.Ins.Fortune.currentLv;
                     break;
             }
@@ -112,7 +112,7 @@ public class CraftUI : MonoBehaviour
             {
                 colorString = ColorUtility.ToHtmlStringRGB(Unenough);
             }
-            price.GetComponentInChildren<Text>().text = "数据碎片 <color=#" + colorString + ">" + cs.GetCost(DungeonManager.Ins.Discount_For_UpgradeCard) + "</color>";
+            price.GetComponentInChildren<Text>().text = "データ欠片<color=#" + colorString + ">" + cs.GetCost(DungeonManager.Ins.Discount_For_UpgradeCard) + "</color>";
             go.GetComponent<Button>().onClick.AddListener(delegate ()
             {
                 //CraftManager.Ins.SetTargetCard(cs);

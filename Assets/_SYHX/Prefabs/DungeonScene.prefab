@@ -753,7 +753,7 @@ MonoBehaviour:
     - {fileID: 2800000, guid: cc8f70f2ec571e9478efa98c041cde7b, type: 3}
     - {fileID: 400064, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
     - {fileID: 13700028, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
-    - {fileID: 2100000, guid: 114d06f712c9bfd4daf6154cfdb133ab, type: 2}
+    - {fileID: 0}
     - {fileID: 100010, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
     - {fileID: 400060, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
     - {fileID: 100124, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
@@ -811,7 +811,7 @@ MonoBehaviour:
     - {fileID: 400056, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
     - {fileID: 100072, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
     - {fileID: 400072, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
-    - {fileID: 2100000, guid: bbe6fcaa797c2c34dbb090243b96b107, type: 2}
+    - {fileID: 0}
     - {fileID: 100142, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
     - {fileID: 4300004, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
     - {fileID: 4300036, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
@@ -927,7 +927,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bbe6fcaa797c2c34dbb090243b96b107, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1038,6 +1038,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Front: {fileID: 0}
   Back: {fileID: 0}
+  happenedCount: 0
+  maxHappenCount: 1
+  roomType: 0
 --- !u!114 &976056870503810605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1078,13 +1081,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976056870857265818}
-  m_LocalRotation: {x: 0.35355338, y: 0.35355338, z: -0.1464466, w: 0.8535535}
+  m_LocalRotation: {x: 0.22776446, y: 0.36002073, z: -0.091099255, w: 0.9001163}
   m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 976056869205686115}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 45, y: 45, z: 0}
+  m_LocalEulerAnglesHint: {x: 28.4, y: 43.6, z: 0}
 --- !u!20 &976056870857265823
 Camera:
   m_ObjectHideFlags: 0
@@ -1109,8 +1112,8 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
-  orthographic: 1
+  field of view: 14
+  orthographic: 0
   orthographic size: 1.8
   m_Depth: -1
   m_CullingMask:
@@ -1161,6 +1164,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1073741824
   maskRadius: 3
+  offset: {x: -6.19, y: 5, z: -6.53}
 --- !u!1001 &976056869789199748
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: "c10201_\u62A4\u76FE_\u7EA2"
   m_EditorClassIdentifier: 
   mID: 10201
-  mName: "\u62A4\u76FE"
-  mDesc: "\u83B7\u5F97{defenceRate}\u62A4\u76FE\u3002"
+  mName: "\u30B7\u30FC\u30EB\u30C9 "
+  mDesc: "{defenceRate}\u30B7\u30FC\u30EB\u30C9\u3092\u7372\u5F97\u3002"
   mEP: 1
   upgradeCost: 0
   cardType: 2

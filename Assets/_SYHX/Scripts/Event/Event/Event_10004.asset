@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Event_10004
   m_EditorClassIdentifier: 
   id: 10004
-  title: "\u53E4\u6218\u573A"
-  desc: "\u6709\u4E00\u4F4D\u519B\u4EBA\u4F3C\u4E4E\u60F3\u4E0E\u4F60\u4EA4\u6D41\u683C\u6597\u6280\u5DE7\u3002"
+  title: "\u53E4\u6226\u5834"
+  desc: "\u4E00\u4EBA\u306E\u5175\u58EB\u304C\u78E8\u304D\u5408\u3044\u305F\u3044"
   pic: {fileID: 21300000, guid: 7868af0592558ce4989540191a12abe1, type: 3}
   optionSources:
   - {fileID: 11400000, guid: 52dbfd171d95c9948a29759142aa70c5, type: 2}

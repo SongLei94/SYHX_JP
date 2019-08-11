@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d377e6261dbf89c4681a4b6d64cf82e8, type: 3}
   m_Name: Event_10002_Option_1
   m_EditorClassIdentifier: 
-  desc: "\u6218\u6597"
+  desc: "\u6226\u3044"
   enemyGroup: {fileID: 11400000, guid: 2f57ba6f13bfb3241ae2bd90a441a2c6, type: 2}
-  result: 
+  result: "\u6CE5\u68D2\u306E\u30B0\u30EB\u30FC\u30D7\u3092\u6F70\u3057\u307E\u3057\u305F"

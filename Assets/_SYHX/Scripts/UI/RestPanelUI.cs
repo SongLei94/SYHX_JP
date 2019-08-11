@@ -30,21 +30,21 @@ public class RestPanelUI : MonoBehaviour
     public Slider ConstitutionSlider;
     public void ShowRestRoomUI(BasicAttribute force, BasicAttribute agile, BasicAttribute constitution)
     {
-        RestDesc.text = "恢复" + DungeonManager.Ins.RestEfficiency * 100 + "%生命值";
+        RestDesc.text = "HPを" + DungeonManager.Ins.RestEfficiency * 100 + "%回復";
 
         gameObject.SetActive(true);
-        ForceLevelCount.text = "力量强化Lv." + force.currentLv + "";
-        AgileLevelCount.text = "敏捷强化Lv." + agile.currentLv + "";
-        ConstitutionLevelCount.text = "智力强化Lv." + constitution.currentLv + "";
+        ForceLevelCount.text = "武力強化Lv." + force.currentLv + "";
+        AgileLevelCount.text = "敏捷強化Lv." + agile.currentLv + "";
+        ConstitutionLevelCount.text = "知恵強化Lv." + constitution.currentLv + "";
 
         ForceTrainingBtn.interactable = !force.IsMaxLv();
         AgileTrainingBtn.interactable = !agile.IsMaxLv();
         ConstitutionTrainingBtn.interactable = !constitution.IsMaxLv();
 
 
-        ForceRewardDesc.text = "当前效果\n最高可以将" + CardType.攻击 + "卡升至" + Initializer.Ins.AttrLvInfos[CharacterInDungeon.Ins.Force.currentLv - 1].LvName;
-        AgileRewardDesc.text = "当前效果\n最高可以将" + CardType.防御 + "卡升至" + Initializer.Ins.AttrLvInfos[CharacterInDungeon.Ins.Agile.currentLv - 1].LvName;
-        ConstitutionRewardDesc.text = "当前效果\n最高可以将" + CardType.技能 + "卡升至" + Initializer.Ins.AttrLvInfos[CharacterInDungeon.Ins.Constitution.currentLv - 1].LvName;
+        ForceRewardDesc.text = "現段階の効果\n" + CardType.攻撃 + "カードを最大" + Initializer.Ins.AttrLvInfos[CharacterInDungeon.Ins.Force.currentLv - 1].LvName+"までアップグレード解禁";
+        AgileRewardDesc.text = "現段階の効果\n" + CardType.防御 + "カードを最大" + Initializer.Ins.AttrLvInfos[CharacterInDungeon.Ins.Agile.currentLv - 1].LvName+"までアップグレード解禁";
+        ConstitutionRewardDesc.text = "現段階の効果\n" + CardType.技能 + "カードを最大" + Initializer.Ins.AttrLvInfos[CharacterInDungeon.Ins.Constitution.currentLv - 1].LvName+"までアップグレード解禁";
 
 
         if (force.IsMaxLv())
@@ -58,7 +58,7 @@ public class RestPanelUI : MonoBehaviour
             ForceExp.text = force.currentExp + " / " + force.maxExp;
             ForceSlider.value = (float)force.currentExp / force.maxExp;
             ForceTrainingDesc.SetActive(true);
-            ForceTrainingDesc.GetComponent<Text>().text = "提升<color=#FFC000>" + DungeonManager.Ins.ForceExp_Per_Training + "</color>点强化点数";
+            ForceTrainingDesc.GetComponent<Text>().text = "強化ポイントを<color=#FFC000>" + DungeonManager.Ins.ForceExp_Per_Training + "</color>獲得";
         }
 
         if (agile.IsMaxLv())
@@ -72,7 +72,7 @@ public class RestPanelUI : MonoBehaviour
             AgileExp.text = agile.currentExp + " / " + agile.maxExp;
             AgileSlider.value = (float)agile.currentExp / agile.maxExp;
             AgileTrainingDesc.SetActive(true);
-            AgileTrainingDesc.GetComponent<Text>().text = "提升<color=#FFC000>" + DungeonManager.Ins.AgileExp_Per_Training + "</color>点强化点数";
+            AgileTrainingDesc.GetComponent<Text>().text = "強化ポイントを<color=#FFC000>" + DungeonManager.Ins.AgileExp_Per_Training + "</color>獲得";
         }
 
         if (constitution.IsMaxLv())
@@ -86,7 +86,7 @@ public class RestPanelUI : MonoBehaviour
             ConstitutionExp.text = constitution.currentExp + " / " + constitution.maxExp;
             ConstitutionSlider.value = (float)constitution.currentExp / constitution.maxExp;
             ConstitutionTrainingDesc.SetActive(true);
-            ConstitutionTrainingDesc.GetComponent<Text>().text = "提升<color=#FFC000>" + DungeonManager.Ins.ConstitutionExp_Per_Training + "</color>点强化点数";
+            ConstitutionTrainingDesc.GetComponent<Text>().text = "強化ポイントを<color=#FFC000>" + DungeonManager.Ins.ConstitutionExp_Per_Training + "</color>獲得";
         }
 
     }
