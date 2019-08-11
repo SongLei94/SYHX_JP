@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mID: 10233
   mName: "\u5C0F\u9283"
-  mDesc: "\u30BF\u30FC\u30B2\u30C3\u30C8\u306B{damageRate}\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3002"
+  mDesc: "\u30BF\u30FC\u30B2\u30C3\u30C8\u306B{damageRate}\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u3002"
   mEP: 0
   upgradeCost: 0
   cardType: 0

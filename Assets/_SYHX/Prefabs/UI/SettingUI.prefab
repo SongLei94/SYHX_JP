@@ -369,7 +369,6 @@ MonoBehaviour:
   BgPic: {fileID: 3561365377990356285}
   Normal: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 1}
   HighLight: {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
-  FillSpeed: 0.18
 --- !u!1 &3561365377290139390
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,7 +824,6 @@ MonoBehaviour:
   BgPic: {fileID: 3561365377290139390}
   Normal: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 0.78431374}
   HighLight: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 1}
-  FillSpeed: 0.18
 --- !u!1 &3561365377741665038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,7 +1425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
