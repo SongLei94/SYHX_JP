@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59644450e8e41ec4fa2c4b4ade2a7d96, type: 3}
   m_Name: RefuseOption
   m_EditorClassIdentifier: 
-  desc: "\u62D2\u7EDD"
+  desc: "\u62D2\u5426"

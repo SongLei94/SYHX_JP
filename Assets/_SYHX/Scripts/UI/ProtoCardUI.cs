@@ -58,7 +58,7 @@ namespace SYHX.Cards
                     break;
                 case ConnectionType.蓝:
                     this.CardFrame.sprite = blueFrame;
-                    this.connectionTypeField.text = "战术";
+                    this.connectionTypeField.text = "戦術";
                     break;
                 case ConnectionType.黄:
                     this.CardFrame.sprite = yellowFrame;

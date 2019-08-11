@@ -33,9 +33,9 @@ public class RestPanelUI : MonoBehaviour
         RestDesc.text = "HPを" + DungeonManager.Ins.RestEfficiency * 100 + "%回復";
 
         gameObject.SetActive(true);
-        ForceLevelCount.text = "武力強化Lv." + force.currentLv + "";
-        AgileLevelCount.text = "敏捷強化Lv." + agile.currentLv + "";
-        ConstitutionLevelCount.text = "知恵強化Lv." + constitution.currentLv + "";
+        ForceLevelCount.text = "STR強化Lv." + force.currentLv + "";
+        AgileLevelCount.text = "AGI強化Lv." + agile.currentLv + "";
+        ConstitutionLevelCount.text = "INT強化Lv." + constitution.currentLv + "";
 
         ForceTrainingBtn.interactable = !force.IsMaxLv();
         AgileTrainingBtn.interactable = !agile.IsMaxLv();
