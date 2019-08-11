@@ -47,7 +47,7 @@ public class Event_10001_Option : OptionSource
         }
         else if (f == 3)
         {
-            result += "喝下之后什么感觉都没有" + count;
+            result += "喝下之后什么感觉都没有";
         }
         else if (f == 2)
         {
