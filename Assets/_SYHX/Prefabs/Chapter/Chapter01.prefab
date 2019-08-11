@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6935113ae1bf6e543ab6cd2b96cdb2f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChapterName: "\u6D4B\u8BD5\u7AE0\u8282"
-  ChapterEnglishName: TEST CHAPTER
+  ChapterName: "\u7B2C\u4E00\u7AE0"
+  ChapterEnglishName: FIRST CHAPTER
   Dungeons:
   - {fileID: 5103690015570452016, guid: a9cd538ff7d5b4d4bbe525bdfc5d39fd, type: 3}
   Sprite: {fileID: 21300000, guid: 5ca2bb4203958cb4a85ecdb3cbf56a0e, type: 3}

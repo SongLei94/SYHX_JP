@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a21fcacf3d4e50438957f4d6e67d62a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DungeonIndex: "\u7B2C\u4E00\u7AE0"
-  DungeonName: "\u65B0\u624B\u5173\u5361"
+  DungeonIndex: Area.01
+  DungeonName: "\u65C5\u4EBA\u306E\u59CB\u307E\u308A"
   DungeonName_EN: ACTUAL COMBAT
   Chapter: {fileID: 1194898276540949139, guid: abf1caa73e3db344d899e021d289abe2, type: 3}
   Pos: {x: -32, y: 272, z: 0}
@@ -129,3 +129,4 @@ MonoBehaviour:
   DungeonProceed: 0
   mapWidth: 5
   mapHeight: 5
+  food: 0

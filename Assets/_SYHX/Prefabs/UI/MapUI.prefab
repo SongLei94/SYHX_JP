@@ -914,7 +914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u643A\u5E26\u98DF\u7269"
+  m_Text: "\u4F9B\u7D66\u88DC\u5145"
 --- !u!1 &227004405929153501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1032,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7B2C\u4E00\u7AE0"
+  m_Text: Chapter.01
 --- !u!1 &624471746127183156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,7 +1068,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 132.93336, y: -62.75}
+  m_AnchoredPosition: {x: 132.93332, y: -62.75}
   m_SizeDelta: {x: 133.3, y: 133.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7073134824372279473
@@ -2465,7 +2465,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Umirika\xB7Stella"
+  m_Text: Umirika
 --- !u!1 &3402395920638743069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2808,7 +2808,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 398.80008, y: -62.75}
+  m_AnchoredPosition: {x: 398.79996, y: -62.75}
   m_SizeDelta: {x: 133.3, y: 133.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5273983110552641836
@@ -2971,7 +2971,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 664.6669, y: -62.75}
+  m_AnchoredPosition: {x: 664.6666, y: -62.75}
   m_SizeDelta: {x: 133.3, y: 133.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5697386028608985696
@@ -3424,7 +3424,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5C24\u7C73\u8389\u5361\xB7\u53F2\u9EDB\u62C9"
+  m_Text: "\u30A6\u30DF\u30EA\u30AB"
 --- !u!1 &4955838552744100042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3503,7 +3503,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6D88\u8017\u4F26\u7279\u5E01\uFF1A"
+  m_Text: "\u30EB\u30F3\u30C8\u6D88\u8CBB"
 --- !u!1 &4966634120975716224
 GameObject:
   m_ObjectHideFlags: 0
@@ -4082,7 +4082,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4443646826566014815
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5008,7 +5008,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6545\u5730\u91CD\u6E38"
+  m_Text: "\u65C5\u4EBA\u306E\u59CB\u307E\u308A"
 --- !u!1 &7852613832683810718
 GameObject:
   m_ObjectHideFlags: 0
